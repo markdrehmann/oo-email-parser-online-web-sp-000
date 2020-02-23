@@ -5,8 +5,12 @@
 
 class EmailAddressParser
 
+  def initialize(email_list)
+
+  end
+
   def parse
-    csv.split(" ")
+    self.split(" ").uniq?
   end
 
 

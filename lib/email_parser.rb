@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    final = @list.split(" ")
+    final = @list.split(", ")
     final.uniq
   end
 

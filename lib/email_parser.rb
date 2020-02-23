@@ -10,7 +10,7 @@ class EmailAddressParser
   end
 
   def parse
-    self.split(" ").uniq?
+    self.split(" ")
   end
 
 

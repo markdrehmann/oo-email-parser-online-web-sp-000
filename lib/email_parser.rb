@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-  def initialize(csv)
+  def parse(csv)
     csv.split(" ")
   end
 
